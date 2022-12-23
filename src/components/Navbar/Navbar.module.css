@@ -1,0 +1,92 @@
+.navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+}
+
+
+/* logo de la pagina */
+.logo{
+  position:relative;
+  width: 120px;
+  height: 45px;
+  margin-left:40px;
+  margin-top: -1ch;
+}
+/* fin de logo */
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+/* 
+lista de botones al 1024px */
+.menu li {
+  color: #000;
+  padding: 1.3rem;
+  list-style: none;
+  margin-top: -5px;
+  cursor: pointer;
+}
+/* fin de lisa de botones */
+.menu > li a {
+  transition: all 0.5s ease;
+  text-decoration: underline;
+  text-decoration-color: #5FD0DF;
+}
+
+.menu > li a:hover{
+  padding: 5px 10px;
+  background: #000;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.navbar a {
+  color: #000;
+  font-size: 0.9rem;
+}
+
+.mobile_btn {
+  display: none;
+  margin-top: -15px;
+  color: #000;
+}
+
+@media screen and (max-width: 720px) {
+  .mobile_btn {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .menu {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    left: -100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 10;
+    transition: left 1s;
+  }
+
+  .active {
+    left: 0;
+  }
+
+  .navbar a {
+    font-size: 1.5rem;
+  }
+}

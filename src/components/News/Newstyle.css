@@ -1,0 +1,148 @@
+/* .second{
+  padding: 3% 30px;
+  @media (max-width: 1000px) {
+    padding: 1% 10px;
+    }
+
+} */
+
+
+/* .n-Img{
+  background-color: gray;
+  position: absolute;
+  margin-top: 20px;
+  width:150px;
+  height:150px;
+  border-radius:150px;
+  padding: 25px;
+  margin-left: 3.3%;
+  justify-content: center;
+
+
+  @media (max-width: 1000px) {
+    padding: 70px 30px;
+    }
+} */
+
+/* .n-select{
+  flex:1;
+  text-align: center;
+  margin-top: 15%;
+  color: white;
+  font-size: 80px;
+  @media (max-width: 1000px) {
+    padding: 70px 30px;
+  }
+}
+ */
+/* seccion de tarjetas dentro de Primary */
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  gap: 2rem;
+  width: 400px;
+  margin: 87px auto 10px;
+  position:relative;
+}
+
+.title {
+  justify-content: center;
+  color:White;
+  background-color:black;
+  font-size: 30px;
+}
+
+article{
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+  aling-items:center;
+}
+
+.container button{
+  width:100px;
+  height:100px;
+  border-radius:150px;
+  border: 2px solid orange;
+  font-size:25px;
+  background-color:white;
+}
+
+#n-p{
+  background-color:white;
+  border: 2px solid #F29100;
+  margin-top: 5px;
+}
+
+#n-s{
+  background-color:white;
+  border: 2px solid #F29100;
+  margin-top: 5px;
+}
+
+#n-t{
+  background-color:white;
+  border: 2px solid #F29100;
+  margin-top: 5px;
+}
+
+@media(min-width:300px){
+  .container{
+    width:430px;
+    margin-top:110px;
+    gap:3px;
+  }
+}
+
+@media (min-width:640px){
+  .container{
+    width:640px;
+    display:flex;
+    margin-top:70px;
+  }
+}
+
+@media (min-width:768px){
+  .container{
+    width:768px;
+    display:flex;
+    margin-top:90px;
+  }
+}
+
+@media (min-width:768px){
+  .button1{
+    display:flex;
+    margin-top:5px;
+    padding: 40px;
+    padding-top: 12%;
+    margin-left: 70px;
+  }
+}
+
+@media (min-width:1024px){
+  .container{
+    display:flex;
+    width: 980px;
+    height: 40%;
+    gap: 5px;
+    margin-top:170px;
+    padding: 10px;
+  }
+}
+
+@media (min-width:1024px){
+  .button1{
+    display:flex;
+    margin-top:8px;
+    padding: 40px;
+    padding-top: 12%;
+    margin-left: 80px;
+  }
+}

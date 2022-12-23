@@ -1,0 +1,61 @@
+.name-card {
+    background: #1D1D1B;
+    height: 150vh;
+    margin-top:12%;
+}
+
+.overflow {
+    overflow: hidden;
+  }
+
+/*   fin efecto imagen */
+.card-img-top {
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+  }
+.card-image{
+    height: 250px;
+}
+
+.card-img-top:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+
+/* fin efecto imagen */
+/* efecto de tarjeta */
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
+    transition: all 0.7s linear;
+  }
+
+/*  fin efecto de tarjeta */
+/*   .card-body {
+    padding: 1rem 0 !important;
+  } */
+
+.card-text{
+    padding:0.3rem 0.5rem;
+    font-size: 0.5rem;
+}
+
+
+.container-card{
+    padding: 50px;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+
+@media (max-width:600px){
+    .card{
+        margin-top: 5%;
+    }
+  }
+
+  @media (max-width:768px){
+    .card{
+        margin-top: 5%;
+    }
+  }
